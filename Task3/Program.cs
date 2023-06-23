@@ -16,6 +16,7 @@ void PrintArrey (int [] arrey_print)
         Console.Write (arrey_print[i] + " ");
 }
 
-int size = 8;
+Console.WriteLine("Input size of arrey: ");
+int size = Convert.ToInt32(Console.ReadLine());
 int [] arrey2 = Arrey(size);
 PrintArrey (arrey2);
